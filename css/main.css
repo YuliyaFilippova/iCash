@@ -1,0 +1,79 @@
+html,
+body {
+ 	margin: 0;
+ 	padding: 0;
+}
+
+body {
+	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 1.4em;
+	background: #eaeaea;
+	background-image: url(../img/background.png);
+	color: #4d4d4d;
+	margin: 0 auto;
+}
+
+#iCashApp {
+	font-size: 20px;
+	width: 600px;
+	background: #fff;
+	background: rgba(255, 255, 255, 0.9);
+	border: 1px solid #ccc;
+	position: relative;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2),
+        0 25px 50px 0 rgba(0, 0, 0, 0.15);
+}
+
+tr, td, th, tbody, tfoot, thead {
+	text-align: center;
+}
+
+h1 {
+	font-size: 70px;
+	font-weight: bold;
+	text-align: center;
+	color: #b3b3b3;
+	color: rgba(255, 255, 255, 0.8);
+	text-shadow: -1px -1px rgba(0, 0, 0, 0.5);
+}
+
+tfoot > tr:first-child > td {
+	font-size: 20px;
+	color: black;
+	background-color: white;
+}
+
+tfoot > tr> td {
+	font-size: 20px;
+	color: white;
+	background-color: black;
+}
+
+td {
+	padding: 10px;
+}
+
+.add-icon{
+	opacity: 0.3;
+	color:green;
+}
+
+.add-icon:hover{
+	opacity: 1;
+}
+
+.close-icon{
+	opacity: 0.3;
+	color:red;
+}
+
+.close-icon:hover{
+	opacity: 1;	
+};
+
+.over {
+  border: 2px dashed #000;
+}
+
